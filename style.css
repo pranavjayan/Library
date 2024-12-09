@@ -1,0 +1,107 @@
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.homestyle {
+    margin-top: 190px;
+    animation: fadeIn 2s ease-in;
+    margin-left:100px ; 
+   
+}
+
+.homestyle h1 {
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 2.7em;
+    opacity: 100; 
+    animation: fadeIn 2s ease-in forwards; 
+    text-align: justify;
+    
+}
+
+.homestyle p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: larger;
+    text-align: justify;
+    opacity: 100; 
+    animation: fadeIn 2s ease-in forwards; 
+}
+
+
+body {
+    background-image: url(images/vecteezy_modern-dark-blue-paper-background-with-dark-3d-layered-line_14398791.jpg);
+    background-size: cover;
+}
+
+.homestyle a{
+    text-decoration: none;
+    color: white;
+    background-color: #343a40;
+    padding: 5px;
+}
+.login-body a{
+text-decoration: none;
+}
+
+.signup-body a{
+    text-decoration: none;
+}
+
+.books-body{
+    padding: 100px;
+}
+.card
+{
+    width: 300px;
+}
+
+.card {
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    height: 300px;
+    width: 23px;
+  }
+  .books-body{
+    animation: fadeIn 2s ease-in;
+  }
+  .signup-body
+  {
+    animation: fadeIn 1s ease-in;
+  }
+  .login-body{
+    animation: fadeIn 1s ease-in;
+  }
+  .body-book1 p{
+text-align: justify;
+
+  }
+  .text-justify
+  {
+    text-align: justify; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .body-book1
+ {
+    animation: fadeIn 2s ease-in forwards; 
+ }
+.body-book1 a
+{
+    text-decoration: none;
+    color: blue;
+}
+.books h2{
+    font-family: sans-serif;   
+}
+  
+  
